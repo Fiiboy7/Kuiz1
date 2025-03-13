@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    padding: 40px 20px;
+    max-width: 500px;
+    margin: auto;
+  }
+  
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .profile-page {
+    background: linear-gradient(to right,#121212, #1DB954);
+    color: white;
+  }
+  
+  .schedule-page {
+    background-color: #121212;
+    color: #1DB954;
+  }
+  
+  .link-btn {
+    display: block;
+    background: white;
+    color: #333;
+    margin: 15px auto;
+    padding: 15px 20px;
+    border-radius: 25px;
+    width: 90%;
+    max-width: 400px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .link-btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .link-btn.dark {
+    background-color: #1DB954;
+    color: #121212;
+  }
+  
+  .socials {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+
+  .jadwal-page {
+    background-color: #121212;
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    color: #333;
+  }
+  
+  .jadwal-container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .jadwal-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+  }
+  
+  .info label {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .info input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th {
+    background-color: #1DB954;
+    color: white;
+    padding: 10px;
+  }
+  
+  td {
+    text-align: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .quote {
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #1DB954;
+    font-weight: bold;
+  }
+  
